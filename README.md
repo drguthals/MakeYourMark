@@ -9,9 +9,9 @@ This inspired the session [Make your mark: contribute to a community project usi
 # Make YOUR Mark!
 
 To get started:
-1. Go to the [MakeCode on micr:bit](https://makecode.microbit.org/) coding page.
+1. Go to the [MakeCode on micro:bit](https://makecode.microbit.org/) coding page.
 2. Create a simple constellation using the 5x5 grid of LEDs
-3. Share it here! (TBD)
+3. Share it [here](https://guthals.com/MakeYourMark/)!
 4. Need some inspiration? Check out the 12 constellations that we made [here](constellations.md)
 
 Want to get invovled more? Keep reading!
