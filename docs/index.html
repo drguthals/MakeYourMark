@@ -39,6 +39,7 @@
             </iframe>
         </div>
         <script>
+            var numNew = 0;
             function addStars() {
                 let div = document.getElementById('universe');
             
@@ -48,9 +49,12 @@
                 let projectID = url.replace("https://makecode.microbit.org/","");
                 console.log(projectID);
 
+                let leftOffset = numNew*10;
+                let topOffset = (numNew%4)*10+30;
+
                 div.insertAdjacentHTML(
                 'beforeend',
-                '<iframe style="position:absolute;top:0;left:0;width:10%;height:10%;" src="https://makecode.microbit.org/---run?id=' +
+                '<iframe style="position:absolute;top:'+topOffset+'%;left:'+leftOffset+'%;width:10%;height:10%;" src="https://makecode.microbit.org/---run?id=' +
                 projectID +
                 '"" allowfullscreen="allowfullscreen" sandbox="allow-popups allow-forms allow-scripts allow-same-origin" frameborder="0"></iframe>'
                 );
