@@ -12,15 +12,8 @@ jobs:
     steps:    
     - name: Checkout
       uses: actions/checkout@v2
-    - name: Getting all of the md file contents for Ignite 2020
+    - name: Getting all of the constellations
       id: collect
       uses: drguthals/MakeYourMark/docs/@main
       with:
         file: docs/initial-constellations.txt
-    - name: Copy contents and push
-      run: |
-          git config user.name Sarah Guthals
-          git config user.email sarah@guthals.com
-          git add .
-          git commit -m "pushing"
-          git push
