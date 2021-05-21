@@ -1,6 +1,6 @@
 import data from './initial-constellations.json';
 
-let div = document.getElementById('grid');
+let div = document.getElementById('universe');
 
 for (var i = 0; i < data.length; i++) {
 	div.insertAdjacentHTML(
