@@ -1,0 +1,26 @@
+name: publish
+
+on:
+  schedule:
+    # Runs every minute
+    - cron:  '5 * * * *'
+
+    
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:    
+    - name: Checkout
+      uses: actions/checkout@v2
+    - name: Getting all of the md file contents for Ignite 2020
+      id: collect
+      uses: drguthals/MakeYourMark/docs/@dynamic-data-simple-universe
+      with:
+        file: docs/initial-constellations.txt
+    - name: Copy contents and push
+      run: |
+          git config user.name Sarah Guthals
+          git config user.email sarah@guthals.com
+          git add .
+          git commit -m "pushing"
+          git push
