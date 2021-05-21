@@ -11,22 +11,6 @@ try {
   console.log( "Constellations contents:\n");
   console.log(constellations);
 
-} catch (error) {
-  core.setFailed(error.message);
-}
-
-// Requiring fs module in which
-// readFile function is defined.
-const fs = require('fs')
-  
-// Reading data in utf-8 format
-// which is a type of character set.
-// Instead of 'utf-8' it can be 
-// other character set also like 'ascii'
-fs.readFile('initial-constellations.txt', 'utf-8', (err, data) => {
-    if (err) throw err;
-
-    console.log(data);
 /*  
     let div = document.getElementById('universe');
 
@@ -38,7 +22,8 @@ fs.readFile('initial-constellations.txt', 'utf-8', (err, data) => {
             ' allowfullscreen="allowfullscreen" sandbox="allow-popups allow-forms allow-scripts allow-same-origin" frameborder="0"></iframe>'
         );
     }
-    */
-})
+*/
 
-// Code came from https://www.geeksforgeeks.org/javascript-program-to-read-text-file/
+} catch (error) {
+  core.setFailed(error.message);
+}
