@@ -11,6 +11,8 @@ jobs:
     steps:    
     - name: Get Started
       run: echo "Starting to collect constellations"
+    - name: Git checkout
+      uses: actions/checkout@v2
     - name: Getting all of the constellations
       id: collect
       uses: drguthals/MakeYourMark/docs/@main

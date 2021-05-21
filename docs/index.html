@@ -4,8 +4,15 @@
         <h2 style="color:white">Student Zone at Microsoft Build 2021</h2>
     </head>
     <body style="background-color:black;">
+        <h2>Add your constellation to the universe!</h2>
+        <form>
+            <label for="project-url">Enter Your MakeCode Project URL:</label>
+            <input type="text" id="project-url" name="project-url">
+            <input type="button" value="Add it in" onclick="addStars()">
+        </form>
+
+        <h2>Check out our Universe!</h2>
         <div id="universe" style="position:relative;height:0;padding-bottom:81.97%;overflow:hidden;">
-        <!--
             <iframe style="position:absolute;top:0;left:0;width:10%;height:10%;" src="https://makecode.microbit.org/---run?id=_h08gTLDCpWTK" allowfullscreen="allowfullscreen" sandbox="allow-popups allow-forms allow-scripts allow-same-origin" frameborder="0">
             </iframe>
             <iframe style="position:absolute;top:0;left:10%;width:10%;height:10%;" src="https://makecode.microbit.org/---run?id=_LRqPivPjVeEU" allowfullscreen="allowfullscreen" sandbox="allow-popups allow-forms allow-scripts allow-same-origin" frameborder="0">
@@ -30,7 +37,24 @@
             </iframe>
             <iframe style="position:absolute;top:20%;left:30%;width:10%;height:10%;" src="https://makecode.microbit.org/---run?id=_iwtFP13R44dc" allowfullscreen="allowfullscreen" sandbox="allow-popups allow-forms allow-scripts allow-same-origin" frameborder="0">
             </iframe>
-        -->
         </div>
+        <script>
+            function addStars() {
+                let div = document.getElementById('universe');
+            
+                let url = document.getElementById('project-url');
+                console.log(url);
+
+                let projectID = url.replace("https://makecode.microbit.org/","");
+                console.log(projectID);
+                
+                div.insertAdjacentHTML(
+                'beforeend',
+                '<iframe style="position:absolute;top:0;left:0;width:10%;height:10%;" src="' +
+                projectID +
+                ' allowfullscreen="allowfullscreen" sandbox="allow-popups allow-forms allow-scripts allow-same-origin" frameborder="0"></iframe>'
+                );
+            }
+        </script>
     </body>
 </html>
