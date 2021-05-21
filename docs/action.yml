@@ -1,0 +1,10 @@
+name: 'Make Your Mark'
+description: 'Load in constellations'
+inputs:
+  file:
+    description: the constellation MakeCode links file checked out
+    required: true
+    default: 'initial-constellations.txt'
+runs:
+  using: 'node12'
+  main: 'main.js'
