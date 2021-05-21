@@ -40,6 +40,7 @@
         </div>
         <script>
             var numNew = 0;
+            var rowNum = 0;
             function addStars() {
                 let div = document.getElementById('universe');
             
@@ -51,10 +52,15 @@
                 console.log(projectID);
 
                 let leftOffset = numNew*10;
-                let topOffset = (numNew%4)*10+30;
+                let topOffset = (rowNum*10)+30;
                 console.log(leftOffset);
                 console.log(topOffset);
                 numNew = numNew + 1;
+                if(numNew >= 4 && numNew < 8){
+                    rowNum = 1;
+                } else if(numNew >= 8 && numNew < 12){
+                    rowNum = 2;
+                }
 
                 div.insertAdjacentHTML(
                 'beforeend',
