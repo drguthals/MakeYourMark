@@ -39,9 +39,12 @@ When you create a project, you can share that project publicly *and* embed the c
 How to embed:
 1. Create a micro:bit MakeCode project
 2. Click the Share button
-3. Click the Publish button
-4. Click the embed expansion
-5. Copy the HTML code to embed:
+![A screenshot of the MakeCode coding page on micro:bit with the share button](assets/share1.png)
+4. Click the Publish button
+![A screenshot of the MakeCode coding page on micro:bit publish popup](assets/share2.png)
+6. Click the embed expansion
+![A screenshot of the MakeCode coding page on micro:bit share popup](assets/share3.png)
+8. Copy the HTML code to embed:
   a. The Code
   b. The Editor
   c. The Simulator
@@ -112,6 +115,8 @@ Here are the 12 constellation MakeCode projects:
 Feel free to check them out and start with those if you want!
 
 The first simple webpage I made you can find in the [SimpleUniverse](https://github.com/drguthals/MakeYourMark/tree/main/SimpleUniverse) folder. If you clone this repo and open the HTML page in your browser, you will be able to see something like this:
+
+![Screenshot of the simple universe HTML file open locally in the browser ](assets/simpleuniverse.png)
 
 And that's where we start! The next step is to make this a little more interactive so others can add their "constellations" via micro:bit/MakeCode simulators and maybe even add in some gamification (voting by clicking maybe?).
 
