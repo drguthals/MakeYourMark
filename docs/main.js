@@ -1,4 +1,7 @@
-import data from './initial-constellations.json';
+let data = fetch("./initial-constellations.json")
+.then(response => {
+   return response.json();
+});
 
 let div = document.getElementById('universe');
 
