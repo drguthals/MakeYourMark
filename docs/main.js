@@ -1,3 +1,20 @@
+const core = require('@actions/core');
+const github = require('@actions/github');
+const fs = require( "fs" );
+const path = require( "path" );
+
+try {
+  console.log( "Finding Constellations..." );
+
+  let constellations = fs.readFileSync( path.join( __dirname, file ) );
+
+  console.log( "Constellations contents:\n");
+  console.log(constellations);
+
+} catch (error) {
+  core.setFailed(error.message);
+}
+
 // Requiring fs module in which
 // readFile function is defined.
 const fs = require('fs')

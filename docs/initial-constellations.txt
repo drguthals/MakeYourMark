@@ -1,12 +1,1 @@
-https://makecode.microbit.org/_h08gTLDCpWTK
-https://makecode.microbit.org/_LRqPivPjVeEU
-https://makecode.microbit.org/_0RL83p32AhP1
-https://makecode.microbit.org/_63KTCr7CXYTP
-https://makecode.microbit.org/_32KgyaJ3q1vt
-https://makecode.microbit.org/_APsYmweF93Ew
-https://makecode.microbit.org/_A8iFD8fY4KTe
-https://makecode.microbit.org/_1vbLt6UYaUEP
-https://makecode.microbit.org/_TM6RwqfvuLbM
-https://makecode.microbit.org/_Rj24RkPHqYDC
-https://makecode.microbit.org/_2wEH1ob4KTdt
-https://makecode.microbit.org/_iwtFP13R44dc
+https://makecode.microbit.org/_h08gTLDCpWTK;https://makecode.microbit.org/_LRqPivPjVeEU;https://makecode.microbit.org/_0RL83p32AhP1;https://makecode.microbit.org/_63KTCr7CXYTP;https://makecode.microbit.org/_32KgyaJ3q1vt;https://makecode.microbit.org/_APsYmweF93Ew;https://makecode.microbit.org/_A8iFD8fY4KTe;https://makecode.microbit.org/_1vbLt6UYaUEP;https://makecode.microbit.org/_TM6RwqfvuLbM;https://makecode.microbit.org/_Rj24RkPHqYDC;https://makecode.microbit.org/_2wEH1ob4KTdt;https://makecode.microbit.org/_iwtFP13R44dc
