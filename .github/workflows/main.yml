@@ -6,7 +6,7 @@ on:
     - cron:  '5 * * * *'
 
 jobs:
-  build:
+  Explore-GitHub-Actions:
     runs-on: ubuntu-latest
     steps:    
     - name: Get Started
