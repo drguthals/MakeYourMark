@@ -3,7 +3,7 @@ name: publish
 on:
   schedule:
     # Runs every minute
-    - cron:  '5 * * * *'
+    - cron:  '* * * * *'
 
 jobs:
   Explore-GitHub-Actions:
