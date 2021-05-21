@@ -38,11 +38,11 @@ When you create a project, you can share that project publicly *and* embed the c
 
 How to embed:
 1. Create a micro:bit MakeCode project
-2. Click the Share button
+2. Click the Share button  
 ![A screenshot of the MakeCode coding page on micro:bit with the share button](assets/share1.png)
-4. Click the Publish button
+4. Click the Publish button  
 ![A screenshot of the MakeCode coding page on micro:bit publish popup](assets/share2.png)
-6. Click the embed expansion
+6. Click the embed expansion  
 ![A screenshot of the MakeCode coding page on micro:bit share popup](assets/share3.png)
 8. Copy the HTML code to embed:
   a. The Code
