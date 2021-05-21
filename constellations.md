@@ -18,5 +18,7 @@ To get started, I created 12 constellations in MakeCode:
 
 You can definitely jump right into the MakeCode micro:bit website and start making cosntellations, what I did was start with Excel!
 
-I made a 5x5 grid of squares and I highlighted cells to simulate the 25 LEDs on the micro:bit!
+I made a 5x5 grid of squares and I highlighted cells to simulate the 25 LEDs on the micro:bit:
+
+![Screenshot of Excel with a 5x5 grid and some cells highlighted](assets/excel1.png)
 
