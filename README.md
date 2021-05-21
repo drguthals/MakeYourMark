@@ -114,7 +114,7 @@ Here are the 12 constellation MakeCode projects:
 
 Feel free to check them out and start with those if you want!
 
-The first simple webpage I made you can find in the [SimpleUniverse](https://github.com/drguthals/MakeYourMark/tree/main/SimpleUniverse) folder. If you clone this repo and open the HTML page in your browser, you will be able to see something like this:
+The first simple webpage I made you can find in the [SimpleUniverse](simple-universe) folder. If you clone this repo and open the HTML page in your browser, you will be able to see something like this:
 
 ![Screenshot of the simple universe HTML file open locally in the browser ](assets/simpleuniverse.png)
 
