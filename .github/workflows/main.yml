@@ -10,8 +10,6 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:    
-    - name: Checkout
-      uses: actions/checkout@v2
     - name: Getting all of the constellations
       id: collect
       uses: drguthals/MakeYourMark/docs/@main
