@@ -5,13 +5,16 @@ on:
     # Runs every minute
     - cron:  '5 * * * *'
 
-    
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:    
+    - name: Get Started
+      run: echo "Starting to collect constellations"
     - name: Getting all of the constellations
       id: collect
       uses: drguthals/MakeYourMark/docs/@main
       with:
         file: docs/initial-constellations.txt
+    - name: Get Started
+      run: echo "Done collecting constellations"
