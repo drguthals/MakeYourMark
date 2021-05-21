@@ -45,6 +45,7 @@
             
                 let url = document.getElementById('project-url').value;
                 console.log(url);
+                document.getElementById('project-url').value = "";
 
                 let projectID = url.replace("https://makecode.microbit.org/","");
                 console.log(projectID);
@@ -53,6 +54,7 @@
                 let topOffset = (numNew%4)*10+30;
                 console.log(leftOffset);
                 console.log(topOffset);
+                numNew = numNew + 1;
 
                 div.insertAdjacentHTML(
                 'beforeend',
