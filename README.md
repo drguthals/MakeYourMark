@@ -165,6 +165,6 @@ Then, get started with your tour of the code:
 1. Fork the [MakeYourMark repository](https://github.com/drguthals/MakeYourMark) on GitHub
 2. Clone it to your local computer
 3. Open it in Visual Studio Code and In the File Explore, find the `Getting-Started` tour and click the play button to start the tour:
-![Screenshot of how to start a CodeTour in Visual Studio Code](/docs/media/start-tour-markup.png)
+![Screenshot of how to start a CodeTour in Visual Studio Code](assets/start-tour-markup.png)
 
 Happy Coding!
