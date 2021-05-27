@@ -147,10 +147,11 @@ And that's where we start! The next step is to make this a little more interacti
 This project is a little...static...hard coded...and local. But that's where you come in!
 
 We're looking for people to contribute to this project! You can do that in many ways:
-1. **Open an issue**: Have an idea to improve this project, but not quite sure how to implement it? 
-2. **Explore issues**: Check out the issues that are already open! Maybe there is someone stuck on how to fix something, or someone has an idea that you can fix! Either way, it's always a good idea to look through issues before opening new ones (to make sure someone didn't already open one) and before trying to contribute (since contributing in the direction the maintainer is heading is more likely to get your pull requests merged!)
-3. **Explore the Code**: Before contributing code, it's always a good idea to explore the code! This repository is using an amazing extension for Visual Studio Code called CodeTour. More information about how to explore the code is in the next section; [Use CodeTour to Explore the Code](#use-codetou-to-explore-the-code).
-4. **Open a Pull Request**: Did you see any issues (or maybe you opened them yourself) that you want to try to integrate into the project? Suggest your changes by opening a pull request (also called PR). Don't forget to update the CodeTour steps!
+1. **Read through the Code of Conduct**: Make sure you understand the Code of Conduct for participating in this community.
+2. **Open an issue**: Have an idea to improve this project, but not quite sure how to implement it? 
+3. **Explore issues**: Check out the issues that are already open! Maybe there is someone stuck on how to fix something, or someone has an idea that you can fix! Either way, it's always a good idea to look through issues before opening new ones (to make sure someone didn't already open one) and before trying to contribute (since contributing in the direction the maintainer is heading is more likely to get your pull requests merged!)
+4. **Explore the Code**: Before contributing code, it's always a good idea to explore the code! This repository is using an amazing extension for Visual Studio Code called CodeTour. More information about how to explore the code is in the next section; [Use CodeTour to Explore the Code](#use-codetou-to-explore-the-code).
+5. **Open a Pull Request**: Did you see any issues (or maybe you opened them yourself) that you want to try to integrate into the project? Suggest your changes by opening a pull request (also called PR). Don't forget to update the CodeTour steps!
 
 ## Use CodeTour to Explore the Code
 
@@ -163,8 +164,7 @@ First, make sure you have a few things installed:
 Then, get started with your tour of the code:
 1. Fork the [MakeYourMark repository](https://github.com/drguthals/MakeYourMark) on GitHub
 2. Clone it to your local computer
-3. Open it in Visual Studio Code
-4. In the File Explore, find the `Getting-Started` tour and click the play button to start the tour:
+3. Open it in Visual Studio Code and In the File Explore, find the `Getting-Started` tour and click the play button to start the tour:
 ![Screenshot of how to start a CodeTour in Visual Studio Code](/docs/media/start-tour-markup.png)
 
 Happy Coding!
