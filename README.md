@@ -8,13 +8,35 @@ This inspired the session [Make your mark: contribute to a community project usi
 
 # Make YOUR Mark!
 
-To get started:
-1. Go to the [MakeCode on micro:bit](https://makecode.microbit.org/) coding page.
-2. Create a simple constellation using the 5x5 grid of LEDs
-3. Share it [here](https://guthals.com/MakeYourMark/)!
-4. Need some inspiration? Check out the 12 constellations that we made [here](constellations.md)
+There are many ways to collaborate with this project! You can check out the constellations we've made, create your own, add them to the universe, and even help make this web application project better! 
 
-Want to get invovled more? Keep reading!
+## Get Inspired
+
+Before you get started, check out the 12 constellations that we made [here](constellations.md). 
+
+You will find all of the actual MakeCode projects so you can see the code and what it results into!
+
+Then, head over to the [Universe](https://guthals.com/MakeYourMark/) and see what they look like all together!
+
+## Create a Constellation
+
+To get started creating your own MakeCode constealltions, just follow these steps:
+1. Head over to the [MakeCode on micro:bit](https://makecode.microbit.org/) coding page
+2. Create a new project
+3. Use the LED code blocks to turn LEDs on 
+4. Click the share button at the top of your project page
+5. Publish the project
+6. Copy the Share URL
+
+## Add Stars to your Universe
+
+Right now, this project will only allow you to add starts to YOUR universe (so if your friends add stars on their computer, you won't see them). Don't worry, we plan on changing that! If you're interested in helping us make this more dynamic and collaborative, check out the section [Contribute to this Project](#contribute-to-this-project).
+
+To see the stars you made in MakeCode in the Universe in YOUR browser, just follow these steps:
+1. Open the universe by clicking [here](https://guthals.com/MakeYourMark/)
+2. Paste the Share URL you copied from your MakeCode project into the text box
+3. Click the "Add Stars" button
+4. See your constellation be added!
 
 # MakeCode and the Web Dev Universe
 
@@ -122,6 +144,27 @@ And that's where we start! The next step is to make this a little more interacti
 
 # Contribute to this project
 
-If you ideas for making this universe even more epic, feel free to suggest them in an issue! If you want to implement that idea, make a PR that references your issue and give it a try!
+This project is a little...static...hard coded...and local. But that's where you come in!
+
+We're looking for people to contribute to this project! You can do that in many ways:
+1. **Open an issue**: Have an idea to improve this project, but not quite sure how to implement it? 
+2. **Explore issues**: Check out the issues that are already open! Maybe there is someone stuck on how to fix something, or someone has an idea that you can fix! Either way, it's always a good idea to look through issues before opening new ones (to make sure someone didn't already open one) and before trying to contribute (since contributing in the direction the maintainer is heading is more likely to get your pull requests merged!)
+3. **Explore the Code**: Before contributing code, it's always a good idea to explore the code! This repository is using an amazing extension for Visual Studio Code called CodeTour. More information about how to explore the code is in the next section; [Use CodeTour to Explore the Code](#use-codetou-to-explore-the-code).
+4. **Open a Pull Request**: Did you see any issues (or maybe you opened them yourself) that you want to try to integrate into the project? Suggest your changes by opening a pull request (also called PR). Don't forget to update the CodeTour steps!
+
+## Use CodeTour to Explore the Code
+
+The [CodeTour extension](https://aka.ms/codetour) for Visual Studio Code is a great way to get acquainted with a project, and we've used it here to help you get started!
+
+First, make sure you have a few things installed:
+1. [Visual Studio Code](https://code.visualstudio.com/) is a free coding editor that is available on all platforms. Make sure you've installed it and/or updated it.
+2. [CodeTour extension](https://aka.ms/codetour) this will enable you to get a guided your through the code
+
+Then, get started with your tour of the code:
+1. Fork the [MakeYourMark repository](https://github.com/drguthals/MakeYourMark) on GitHub
+2. Clone it to your local computer
+3. Open it in Visual Studio Code
+4. In the File Explore, find the `Getting-Started` tour and click the play button to start the tour:
+![Screenshot of how to start a CodeTour in Visual Studio Code](/docs/media/start-tour-markup.png)
 
 Happy Coding!

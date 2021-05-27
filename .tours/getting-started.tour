@@ -1,0 +1,86 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "Getting-Started",
+  "steps": [
+    {
+      "file": "README.md",
+      "description": "Hopefully you've read the README before exploring the code. If you haven't, scroll to the top of this file and take a quick read. You can always refer back to it, but this will help you get aquainted with what we can do and what we want to do.",
+      "line": 155
+    },
+    {
+      "file": "constellations.md",
+      "description": "This file contains a link to all of the 12 constellations from the zodiac made in MakeCode! Browse through these projects to get an idea for how they were made.",
+      "line": 1
+    },
+    {
+      "file": "simple-universe/universe.html",
+      "description": "This is a super simplified version of the universe with the 12 constellations displaying in a 3X4 grid. Everything here is hard coded and there is no way for a user to add anything to the page.",
+      "line": 1
+    },
+    {
+      "file": "docs/embedCodeExample.html",
+      "description": "This is an example of embedding the code of a MakeCode project into a webpage. You can see an [example of this live here](https://guthals.com/MakeYourMark/embedCodeExample.html).",
+      "line": 5
+    },
+    {
+      "file": "docs/embedEditorExample.html",
+      "description": "This is an example of embedding the entire editor of a MakeCode project into a webpage. You can see an [example of this live here](https://guthals.com/MakeYourMark/embedEditorExample.html).",
+      "line": 5
+    },
+    {
+      "file": "docs/embedSimulatorExample.html",
+      "description": "This is an example of embedding the simulator (output) of a MakeCode project into a webpage. You can see an [example of this live here](https://guthals.com/MakeYourMark/embedSimulatorExample.html).",
+      "line": 5
+    },
+    {
+      "file": "docs/initial-constellations.txt",
+      "description": "This is just a list of the MakeCode project URLS of the 12 constellations that represent the zodiac signs in a text file deliminated by a `;`. This is so that we can read them in dynamically (instead of hard coding all of the URLs in the HTML file). The eventual goal is to host this text file somewhere that can be dynamically edited so that new projects can also be included!",
+      "line": 1,
+      "selection": {
+        "start": {
+          "line": 1,
+          "character": 425
+        },
+        "end": {
+          "line": 1,
+          "character": 528
+        }
+      }
+    },
+    {
+      "file": "docs/index.html",
+      "description": "This is the slightly more \"advanced\" version of the Universe that you can [see live here](https://guthals.com/MakeYourMark).\r\n\r\nThis repository is using GitHub Pages, so what is in the `/docs` folder gets rendered as a webpage.",
+      "line": 1
+    },
+    {
+      "file": "docs/index.html",
+      "description": "This form is for folks to paste the Share URL from their MakeCode projects and when they click the `Add Stars` button the simulator of their project will be added to the universe that is local to their browser. You can check out the `addStars()` function below (and in the next step).",
+      "line": 8
+    },
+    {
+      "file": "docs/index.html",
+      "description": "This is the `AddStars()` function taht will take the Share URL that a user input, strip out the MakeCode part, leaving only the unique ID for the project, and save that into a variable called `projectID`.",
+      "line": 44
+    },
+    {
+      "file": "docs/index.html",
+      "description": "This next bit is a very hardcoded way to be able to add simulators to the universe and needs to be improved. Basically it will add this to the bottom row.",
+      "line": 53
+    },
+    {
+      "file": "docs/index.html",
+      "description": "Finally, the unique project ID gets included in the simulator embed code that we saw earlier in this tour and that HTML code gets inserts into the div above.",
+      "line": 64
+    },
+    {
+      "file": "docs/index.html",
+      "description": "The simulators for each of the constellations are still hardcoded, which needs to be improved. This div contains all 12 of the constellations that show the zodiac signs.",
+      "line": 15
+    },
+    {
+      "file": "README.md",
+      "description": "Be sure to check out the [issues on this repo](https://github.com/drguthals/MakeYourMark/issues) and suggest improvements, look for ideas to implement, and then open up some pull requests!\r\n\r\nHappy Coding!",
+      "line": 158
+    }
+  ]
+}
