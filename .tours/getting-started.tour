@@ -59,7 +59,7 @@
     },
     {
       "file": "docs/index.html",
-      "description": "This is the `AddStars()` function taht will take the Share URL that a user input, strip out the MakeCode part, leaving only the unique ID for the project, and save that into a variable called `projectID`.",
+      "description": "This is the `AddStars()` function that will take the Share URL that a user input, strip out the MakeCode part, leaving only the unique ID for the project, and save that into a variable called `projectID`.",
       "line": 44
     },
     {
