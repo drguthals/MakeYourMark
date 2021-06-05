@@ -4,7 +4,7 @@ Taking part in the Student Zone at Microsoft Build is about so much more than ju
 
 To give you the opportunity to show you were there, we've made this stellar MakeCode and JavaScript community project and invite you to make your mark on our Student Zone universe!
 
-This inspired the session [Make your mark: contribute to a community project using MakeCode and JavaScript ](https://mybuild.microsoft.com/sessions/9ff3107b-0895-4d3a-a585-09ee14d2d05c?source=sessions) at Microsoft Build with Chloe Condon and Morgan Bell!
+This inspired the session [Make your mark: contribute to a community project using MakeCode and JavaScript ](https://mybuild.microsoft.com/sessions/9ff3107b-0895-4d3a-a585-09ee14d2d05c?source=sessions&WT.mc_id=academic-0000-sguthals) at Microsoft Build with Chloe Condon and Morgan Bell!
 
 # Make YOUR Mark!
 
@@ -158,7 +158,7 @@ We're looking for people to contribute to this project! You can do that in many 
 The [CodeTour extension](https://aka.ms/CodeTourForVSCode) for Visual Studio Code is a great way to get acquainted with a project, and we've used it here to help you get started!
 
 First, make sure you have a few things installed:
-1. [Visual Studio Code](https://code.visualstudio.com/) is a free coding editor that is available on all platforms. Make sure you've installed it and/or updated it.
+1. [Visual Studio Code](https://code.visualstudio.com/?WT.mc_id=academic-0000-sguthals) is a free coding editor that is available on all platforms. Make sure you've installed it and/or updated it.
 2. [CodeTour extension](https://aka.ms/CodeTourForVSCode) this will enable you to get a guided your through the code
 
 Then, get started with your tour of the code:
