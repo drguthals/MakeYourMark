@@ -2,7 +2,7 @@
 
 ## GO THROUGH README.md :nerd_face: 
 First of all, MAKE A GO THROUGH of **README.md** which will provide you an *introduction* to this project.  
-You'll find README.md at [Homepage of this repo](https://github.com/drguthals/MakeYourMark homepage) .
+You'll find README.md at [Homepage of this repo](https://github.com/drguthals/MakeYourMark) homepage.
 
 ## CODE OF CONDUCT GUIDELINES
 Do follow [**CODE OF CONDUCT GUIDELINES**](https://github.com/drguthals/MakeYourMark/blob/13ca6cbacdf75d46d0e5f78f12e2f61676975731/CODE_OF_CONDUCT.md) :monocle_face: while providing *Any Suggestion* to *any changes* or *your views* related to issues.
